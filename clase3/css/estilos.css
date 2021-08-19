@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(165, 42, 42, 0.438);
+    }
+    
+    li{
+        display: inline;
+        padding: 10px;
+        border: 5px solid purple;
+        margin: 2px; 
+        background-color: rebeccapurple;
+        cursor: pointer;
+        box-shadow: 5px 5px 4px black;
+        }
+    li:hover{
+        /* comentario  para realizar un comentario aqui se usa SHIFT + ALT + A*/
+        background-color: seagreen;
+        color: black;
+        box-shadow: -5px 5px 10px white;
+        }

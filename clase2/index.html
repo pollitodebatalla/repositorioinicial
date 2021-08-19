@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase2</title>
+    <style>
+    body{background-color: darkgreen;}
+    </style> <!--aqui agregamos especificaciones visuales para la pagina-->
+</head>
+<body>
+    <h3>imagenes!</h3>
+
+    <h4>imagen ruta absoluta</h4><!--es cuando se toma de la pagina web--> 
+        <img width="750" src="https://as.com/meristation/imagenes/2020/10/07/noticias/1602057129_447711_1602057207_noticia_normal.jpg" alt="">
+    <h4>imagen ruta relativa</h4><!--es cuando se toma de una descarga previa-->
+        <img width="750" src="../clase2/img/monster hunter imagen.jpg" alt=""> <!--si la imagen es grande con comando width podemos cambiar el tamaño-->
+    <h3>archivo de pdf descargable</h3><!--aqui vemos el cod para hacer un link de deascarga-->
+    <a href="./pdf/El caballero de la armadura oxidada.pdf" target="_blank" download>clik para descargar</a>
+
+    <h3>formulario</h3><!---->
+    <form action="../index.html" method="GET"> <!--formulario con usuario y contraseña para enviar al link despues de una accion-->
+        <label for="usuario">usuario</label>
+        <input type="text" name="usuario" id="usuario">
+        <label for="password">password</label>
+        <input type="text" name="password" id="password">
+        <input type="submit" value="send"/> 
+        <input type="button" value="entrar" onclick="alert('el mensaje funciona')">
+        <h4>check buttom</h4>
+        <input type="radio" name="radio" id="radio">
+        <input type="radio" name="radio" id="radio"> <!-- el radios se usa para seleccionar una opcion-->
+        <input type="checkbox" name="checkbox" id=""><!-- permite seleccionar barias opciones-->
+        <input type="checkbox" name="checkbox" id="">
+        <select name="item1" id="item1">
+            <option value="item1">opcion1</option>
+            <option value="item2">opcion2</option>
+            <option value="item3">opcion3</option>
+        </select> <!--se usa para seleccionar entre opciones-->
+        <h4>mencionamos el div</h4>
+        
+        <div><!--se usa el div como un contenedor-->
+            
+
+        </div>
+    
+    
+    
+    </form>
+</body>
+</html>
