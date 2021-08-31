@@ -1,0 +1,13 @@
+.negro{
+    background-color:black !important;
+    color: white !important;
+    width: 25%;
+    height: 320px;
+}
+.rojo{
+    background-color: red;
+    color: yellow;
+    width: 25%;
+    height: 320px;
+    float: left;
+}

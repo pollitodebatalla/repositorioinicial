@@ -1,0 +1,57 @@
+
+body{background-color: gray; }
+
+.galeria{
+    height: calc(500px + 3em);
+    width: 550px;
+    margin: 1em auto;
+    border: 1px solid black;
+    position: relative;
+
+}
+.galeria img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 550px;
+    opacity: 0;
+    transition: 3s;
+}
+.galeria input[type=radio]{
+    position: relative;
+    bottom: calc(-500px - 1.5em);
+    left:0.5em;
+} /* control D permite compiar los nombres del mismo valor y cambiarlos en conjunto */
+.galeria input[type=radio]:nth-of-type(1):checked ~ :nth-of-type(1){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(2):checked ~ :nth-of-type(2){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(3):checked ~ :nth-of-type(3){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(4):checked ~ :nth-of-type(4){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(5):checked ~ :nth-of-type(5){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(6):checked ~ :nth-of-type(6){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(7):checked ~ :nth-of-type(7){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(8):checked ~ :nth-of-type(1){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(9):checked ~ :nth-of-type(1){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(10):checked ~ :nth-of-type(10){
+    opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(11):checked ~ :nth-of-type(11){
+    opacity: 1;
+}
