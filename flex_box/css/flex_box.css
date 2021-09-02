@@ -1,0 +1,35 @@
+.principal{
+    display: flex;
+    flex-wrap: wrap; /* uno debajo de otro */
+    justify-content: center; /* justify content permite mover el contenido de distintas formas  */
+    justify-content: space-around; /* separa de forma equitativa usando todo el espacio */
+
+    }
+.cuadro{
+    background-color: blueviolet;
+    width: 20%;
+    height: 200px;
+    margin: 10px; 
+    /* para utilizar overflow siempre se usa el hijo */
+    overflow: auto;
+    }
+.cuadro p{
+    font-size: x-large;
+    }
+
+.cuadro p::after{ /* definimos que en "p" este texto no podra copiarse */
+    content:'este texto no se puede copiar';
+    
+
+    }
+footer{
+    background-color: darkslategrey;
+    position: absolute;
+    bottom: 0px;
+    }
+    /* podemos copiar clases de letra en google  */
+*{ /* el asterisco hace que toda la pagina use el mismo font */
+    font-family: 'Azeret Mono', monospace;
+}
+
+
