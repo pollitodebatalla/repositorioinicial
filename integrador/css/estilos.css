@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 !important;
+    position: relative;
+  }
+  body {
+    padding-right: 2.7px;
+  }
+  /* logo */
+  .logo {
+    width: 100px;
+    height: 57px;
+  }
+  
+  /* nav */
+  nav {
+    background-color: #353a40;
+  }
+  
+  /* color de link en nav */
+  .colorverde {
+    color: rgba(47, 255, 75, 0.514) !important;
+  }
+  
+  .colorverde2 {
+    color: #96c93e !important;
+  }
+  
+  /* brillo imagen ppal */
+  .imgn {
+    filter: brightness(50%);
+  }
+  
+  /* padding texto de imagen ppal */
+  .texto {
+    padding: 14.5% 8.5%;
+  }
+  
+  /* fondo y borde blanco de boton */
+  .boton1 {
+    border: 1px solid white !important;
+  }
+  
+  /* fondo verde boton */
+  .boton2 {
+    background-color: #29a744;
+  }
+  
+  .boton12 {
+    border: 1px solid white !important;
+    padding: 3px;
+    font-size: 12px;
+  }
+  
+  /* tamaÃ±o letra en cards */
+  .card-text {
+    font-size: 0.29cm;
+    line-height: 20px;
+  }
+  
+  /* fondo JS */
+  .js {
+    background-color: #ffc107;
+    color: black;
+    font-size: 10px;
+  }
+  
+  /* fondo react */
+  .react {
+    background-color: #17a2b8;
+    font-size: 10px;
+  
+  }
+  
+  /* borde de cards */
+  .borde1 {
+    border: 1px solid gainsboro !important;
+    /* border-end-end-radius: 5%;
+      border-start-end-radius: 5%; */
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+  }
+  
+  /* fondo negocio */
+  .negocio {
+    color: white;
+    background-color: #6c757d;
+    font-size: 10px;
+  
+  }
+  
+  /* fondo startup */
+  .startup {
+    color: white;
+    background-color: #dc3545;
+    font-size: 10px;
+  
+  }
+  
+  /* div de titulos arriba de cards */
+  .titu {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  /* tamaÃ±o nombre oradores */
+  .card-title {
+    font-size: 17px;
+  }
+  
+  /* segundo titulo arriba de cards */
+  .titu1 {
+    font-size: x-small;
+    margin: -3px;
+  }
+  
+  /* segundo titulo arriba de cards */
+  .titu12 {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: -0.5px;
+  }
+  
+  /* imagen de playa */
+  .playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+  }
+  
+  /* texto al lado de imagen de playa */
+  .tex {
+    background-color: #353a40;
+    color: white;
+  }
+  
+  /* tamaÃ±o letra texto playa */
+  .fs-8 {
+    font-size: 12px;
+  }
+  
+  /* subrayado con puntos */
+  .puntos {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+  
+  /* tamaÃ±o letra texto playa */
+  .fs-9 {
+    font-size: 14px;
+  }
+  
+  /* columna formulario */
+  .col-7 {
+    width: 55%;
+    color: gainsboro;
+  }
+  
+  /* presentar documentacion */
+  .documentacion{
+    font-size: 13px !important;
+  }
+  
+  /* formulario */
+  .formu1 {
+    border: 1px solid gainsboro !important;
+    font-size: 12px !important;
+    color: black;
+    height: 27px;
+    border-radius: 0.08cm;
+    padding-left: 7px;
+  }
+  .formu13 {
+      border: 1px solid gainsboro !important;
+      font-size: 12px !important;
+      color: black;
+      height: 27px;
+      border-radius: 0.08cm;
+      padding-left: 7px;
+      width: 104%;
+    }
+  
+    .formu10 {
+      border: 1px solid gainsboro !important;
+      font-size: 14px !important;
+      color: black;
+      height: 35px;
+      border-radius: 0.08cm;
+      padding-left: 10px;
+      margin-right: 10px;
+      width: 101%;
+  
+    }
+    .formu130 {
+        border: 1px solid gainsboro !important;
+        font-size: 14px !important;
+        color: black;
+        height: 35px;
+        border-radius: 0.08cm;
+        padding-left: 10px;
+        width: 108%;
+        margin-left: -10px;
+      }
+  
+  .formu2 {
+    border: 1px solid gainsboro !important;
+    font-size: 18px !important;
+    color: black;
+  }
+  ::placeholder {
+    color: gray !important;
+  }
+  
+  /* debajo del form */
+  .bform {
+    color: gray !important;
+    font-size: 10px;
+  }
+  
+  /* margin arriba */
+  .container {
+    margin-top: -25px;
+  }
+  
+  .container22 {
+    width: 50%;
+  }
+  
+  /* ultimo boton */
+  .boton22 {
+    background-color: #96c93e !important;
+  }
+  
+  /* row */
+  .row {
+    margin-right: 0 !important;
+    padding-right: 0% !important;
+  }
+  
+  .alerta {
+    background-color: #CCE5FF;
+    margin-left: 8px;
+    width: 97.5%;
+    height: 50px;
+    padding-top: -10px !important;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+  }
+  
+  /* footer */
+  .footer {
+    background-image: linear-gradient(to right, #1c3643, #1e5372);
+    height: 80px;
+    text-align: center;
+    align-items: center !important;
+    vertical-align: middle !important;
+    font-size: small;
+  }
+  
+  /* links footer */
+  .links {
+    text-decoration: none !important;
+    color: white !important;
+  }
+  
+  
+  .divo{
+      text-align: center;
+  }
+  
+  .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 20px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #1d64a7;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
+    
+    .button:hover {background-color: #115994}
+    
+    .button:active {
+      background-color: #115994;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  
+    .cuadrito1{
+      border: 1.5px solid #007BFF !important;
+    }
+  
+    .cuadrito2{
+      border: 1.5px solid #17A2B8 !important;
+    }
+  
+    .cuadrito3{
+      border: 1.5px solid #FFC107 !important;
+    }
+  
+    #totalPagar{
+      border: 1.5px solid #B8DAFF !important;
+      color: #115994;
+    }
+    .btn-codo{
+      background-color: #97c93e;
+      color: white;
+      width: 98%;
+      margin: 2%;
+    }
+    footer{
+      position: fixed;
+      width: 100%;
+      bottom: 0px;
+    }

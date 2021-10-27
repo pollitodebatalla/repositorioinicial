@@ -33,3 +33,15 @@ if(nombre_variable == undefined){
 elemento.style.backgroundColor="blue"
 elemento.style.color="white"
 
+let menu = prompt("selecciona el pedido : \n 1. Milanesa con Frita \n 2. milanesa napolitana \n 3 fritas solas")
+
+if(menu === '1'){/* valor y el tipo */
+    elemento.innerHTML="<div class=\"alert alert-success\" role=\"alert\">disfruta de tu milanesa con fritas!</div>"
+}else if (menu ==='2'){/* valor y tipo */
+    elemento.innerHTML="<div class=\"alert alert-success\" role=\"alert\">disfruta de tu milanesa napolitana!</div>"
+}else if (menu ==='3'){/* valor y tipo */
+    elemento.innerHTML="<div class=\"alert alert-success\" role=\"alert\">disfruta de tus fritas!</div>"
+}else{
+    alert('debe elegir una opcion correcta')
+    let menu = prompt("selecciona el pedido : \n 1. Milanesa con Frita \n 2. milanesa napolitana \n 3 fritas solas")
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- head -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./img/codoacodo.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/estilos.css" />
+
+    <!-- titulo -->
+    <title>Trabajo Práctico Integrador Front End</title>
+</head>
+
+<!-- body -->
+
+<body>
+    <!-- header -->
+
+    <!-- nav -->
+    <div class="">
+        <nav class="px-5 navbar navbar-expand-lg navbar-dark bg-gray">
+            <div class="px-5 container-fluid">
+                <a class="pb-2 pt-0 navbar-brand" href="#"><img src="./img/codoacodo.png" alt="" class="logo" />Conf Bs
+                    As</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="pb-1 collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conviértete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorverde"  onclick="comprarTickets()">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- main -->
+    <main>
+        <!-- imagen principal con texto dentro -->
+        <div class="card bg-dark text-white">
+            <img src="./img/ba1.jpg" class="imgn" alt="Fondo" />
+            <div class="card-img-overlay text-end texto">
+                <h5 class="fs-2">Conf Bs As</h5>
+                <p class="">
+                    Bs As llega por primera vez a Argentina. Un evento para compartir
+                    con
+                    <br />
+                    nuestra comunidad el conocimiento y experiencia de los expertos
+                    que
+                    <br />
+                    están creando el futuro de Internet. Ven a conocer a miembros del
+                    <br />
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                    <br />
+                    nivel que tenemos para ti. Te esperamos!
+                </p>
+                <button type="button" class="btn btn-outline-light boton1">
+                    Quiero ser orador
+                </button>
+                <button type="button" class="btn btn-success boton2" onclick="comprarTickets()">
+                    Comprar tickets
+                </button>
+            </div>
+        </div>
+<section id="section">
+  </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+        <div class="container">
+            <div class="row footer">
+                <div class="col"></div>
+                <div class="col"><a class="links" href="#">Preguntas frecuentes</a></div>
+                <div class="col"><a class="links" href="#">Contáctanos</a></div>
+                <div class="col"><a class="links" href="#">Prensa</a></div>
+                <div class="col"><a class="links" href="#">Conferencias</a></div>
+                <div class="col"><a class="links" href="#">Términos y condiciones</a></div>
+                <div class="col"><a class="links" href="#">Privacidad</a></div>
+                <div class="col"><a class="links" href="#">Estudiantes</a></div>
+
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <div class="otrosdivs divo">
+      <div>
+        <a href="https://github.com/Queirel/Actividad-Integradora-Frontend" target="_blanc"
+          ><input class="button" type="button" value="Actividad en Git"/></a>
+      </div>
+      <br />
+      <div>
+        <a href="../index.html"
+          ><input class="button" type="button" value="Volver"/></a>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
